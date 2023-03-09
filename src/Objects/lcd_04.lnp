@@ -1,0 +1,15 @@
+--cpu ARM7TDMI
+".\objects\startup.o"
+".\objects\dev_oper.o"
+".\objects\io_lib.o"
+".\objects\lcd.o"
+".\objects\keyboard.o"
+".\objects\main.o"
+".\objects\sw_lib.o"
+".\objects\uart.o"
+".\objects\appl.o"
+".\objects\std_lib.o"
+--strict --scatter ".\Objects\lcd_04.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\lcd_04.map" -o .\Objects\lcd_04.axf

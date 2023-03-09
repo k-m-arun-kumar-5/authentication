@@ -1,0 +1,16 @@
+.\objects\std_lib.o: std_lib.c
+.\objects\std_lib.o: main.h
+.\objects\std_lib.o: C:\Keil_v5\ARM\Inc\Philips\lpc213x.h
+.\objects\std_lib.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\std_lib.o: constants.h
+.\objects\std_lib.o: sys_status.h
+.\objects\std_lib.o: io_conf.h
+.\objects\std_lib.o: sw_lib.h
+.\objects\std_lib.o: keyboard.h
+.\objects\std_lib.o: lcd.h
+.\objects\std_lib.o: uart.h
+.\objects\std_lib.o: appl_conf.h
+.\objects\std_lib.o: io_lib.h
+.\objects\std_lib.o: port.h
+.\objects\std_lib.o: std_lib.h
+.\objects\std_lib.o: dev_oper.h

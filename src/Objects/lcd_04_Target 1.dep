@@ -1,0 +1,165 @@
+Dependencies for Project 'lcd_04', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x55AF141C)(--cpu ARM7TDMI -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Philips--pd "__UVISION_VERSION SETA 521"--list .\listings\startup.lst --xref -o .\objects\startup.o --depend .\objects\startup.d)
+F (.\dev_oper.c)(0x5B97B298)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="521"-o .\objects\dev_oper.o --omf_browse .\objects\dev_oper.crf --depend .\objects\dev_oper.d)
+I (main.h)(0x5B96090E)
+I (C:\Keil_v5\ARM\Inc\Philips\lpc213x.h)(0x55AF142E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5B323330)
+I (constants.h)(0x5B96335E)
+I (sys_status.h)(0x5B9776D2)
+I (io_conf.h)(0x5B97B2B4)
+I (sw_lib.h)(0x5B9112AE)
+I (keyboard.h)(0x5B95334A)
+I (lcd.h)(0x5B964FC2)
+I (uart.h)(0x5B96389A)
+I (appl_conf.h)(0x5B97B0E2)
+I (io_lib.h)(0x5B962CC6)
+I (port.h)(0x5B93ABC4)
+I (std_lib.h)(0x5B977080)
+I (dev_oper.h)(0x5B967F36)
+F (.\io_lib.c)(0x5B97B298)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="521"-o .\objects\io_lib.o --omf_browse .\objects\io_lib.crf --depend .\objects\io_lib.d)
+I (main.h)(0x5B96090E)
+I (C:\Keil_v5\ARM\Inc\Philips\lpc213x.h)(0x55AF142E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5B323330)
+I (constants.h)(0x5B96335E)
+I (sys_status.h)(0x5B9776D2)
+I (io_conf.h)(0x5B97B2B4)
+I (sw_lib.h)(0x5B9112AE)
+I (keyboard.h)(0x5B95334A)
+I (lcd.h)(0x5B964FC2)
+I (uart.h)(0x5B96389A)
+I (appl_conf.h)(0x5B97B0E2)
+I (io_lib.h)(0x5B962CC6)
+I (port.h)(0x5B93ABC4)
+I (std_lib.h)(0x5B977080)
+I (dev_oper.h)(0x5B967F36)
+F (.\lcd.c)(0x5B96630E)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="521"-o .\objects\lcd.o --omf_browse .\objects\lcd.crf --depend .\objects\lcd.d)
+I (main.h)(0x5B96090E)
+I (C:\Keil_v5\ARM\Inc\Philips\lpc213x.h)(0x55AF142E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5B323330)
+I (constants.h)(0x5B96335E)
+I (sys_status.h)(0x5B9776D2)
+I (io_conf.h)(0x5B97B2B4)
+I (sw_lib.h)(0x5B9112AE)
+I (keyboard.h)(0x5B95334A)
+I (lcd.h)(0x5B964FC2)
+I (uart.h)(0x5B96389A)
+I (appl_conf.h)(0x5B97B0E2)
+I (io_lib.h)(0x5B962CC6)
+I (port.h)(0x5B93ABC4)
+I (std_lib.h)(0x5B977080)
+I (dev_oper.h)(0x5B967F36)
+F (.\keyboard.c)(0x5B97B298)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="521"-o .\objects\keyboard.o --omf_browse .\objects\keyboard.crf --depend .\objects\keyboard.d)
+I (main.h)(0x5B96090E)
+I (C:\Keil_v5\ARM\Inc\Philips\lpc213x.h)(0x55AF142E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5B323330)
+I (constants.h)(0x5B96335E)
+I (sys_status.h)(0x5B9776D2)
+I (io_conf.h)(0x5B97B2B4)
+I (sw_lib.h)(0x5B9112AE)
+I (keyboard.h)(0x5B95334A)
+I (lcd.h)(0x5B964FC2)
+I (uart.h)(0x5B96389A)
+I (appl_conf.h)(0x5B97B0E2)
+I (io_lib.h)(0x5B962CC6)
+I (port.h)(0x5B93ABC4)
+I (std_lib.h)(0x5B977080)
+I (dev_oper.h)(0x5B967F36)
+F (.\main.c)(0x5B97BC08)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="521"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (main.h)(0x5B96090E)
+I (C:\Keil_v5\ARM\Inc\Philips\lpc213x.h)(0x55AF142E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5B323330)
+I (constants.h)(0x5B96335E)
+I (sys_status.h)(0x5B9776D2)
+I (io_conf.h)(0x5B97B2B4)
+I (sw_lib.h)(0x5B9112AE)
+I (keyboard.h)(0x5B95334A)
+I (lcd.h)(0x5B964FC2)
+I (uart.h)(0x5B96389A)
+I (appl_conf.h)(0x5B97B0E2)
+I (io_lib.h)(0x5B962CC6)
+I (port.h)(0x5B93ABC4)
+I (std_lib.h)(0x5B977080)
+I (dev_oper.h)(0x5B967F36)
+I (dev_chs_map.h)(0x5B97B298)
+I (data_ids_map.h)(0x5B978430)
+F (.\sw_lib.c)(0x5C90D59D)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="521"-o .\objects\sw_lib.o --omf_browse .\objects\sw_lib.crf --depend .\objects\sw_lib.d)
+I (main.h)(0x5B96090E)
+I (C:\Keil_v5\ARM\Inc\Philips\lpc213x.h)(0x55AF142E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5B323330)
+I (constants.h)(0x5B96335E)
+I (sys_status.h)(0x5B9776D2)
+I (io_conf.h)(0x5B97B2B4)
+I (sw_lib.h)(0x5B9112AE)
+I (keyboard.h)(0x5B95334A)
+I (lcd.h)(0x5B964FC2)
+I (uart.h)(0x5B96389A)
+I (appl_conf.h)(0x5B97B0E2)
+I (io_lib.h)(0x5B962CC6)
+I (port.h)(0x5B93ABC4)
+I (std_lib.h)(0x5B977080)
+I (dev_oper.h)(0x5B967F36)
+F (.\appl_conf.h)(0x5B97B0E2)()
+F (.\constants.h)(0x5B96335E)()
+F (.\data_ids_map.h)(0x5B978430)()
+F (.\dev_chs_map.h)(0x5B97B298)()
+F (.\dev_oper.h)(0x5B967F36)()
+F (.\io_conf.h)(0x5B97B2B4)()
+F (.\io_lib.h)(0x5B962CC6)()
+F (.\lcd.h)(0x5B964FC2)()
+F (.\keyboard.h)(0x5B95334A)()
+F (.\main.h)(0x5B96090E)()
+F (.\port.h)(0x5B93ABC4)()
+F (.\sw_lib.h)(0x5B9112AE)()
+F (.\uart.c)(0x5B96389A)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="521"-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (main.h)(0x5B96090E)
+I (C:\Keil_v5\ARM\Inc\Philips\lpc213x.h)(0x55AF142E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5B323330)
+I (constants.h)(0x5B96335E)
+I (sys_status.h)(0x5B9776D2)
+I (io_conf.h)(0x5B97B2B4)
+I (sw_lib.h)(0x5B9112AE)
+I (keyboard.h)(0x5B95334A)
+I (lcd.h)(0x5B964FC2)
+I (uart.h)(0x5B96389A)
+I (appl_conf.h)(0x5B97B0E2)
+I (io_lib.h)(0x5B962CC6)
+I (port.h)(0x5B93ABC4)
+I (std_lib.h)(0x5B977080)
+I (dev_oper.h)(0x5B967F36)
+F (.\uart.h)(0x5B96389A)()
+F (.\appl.h)(0x5BA9CD60)()
+F (.\appl.c)(0x5B97BB96)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="521"-o .\objects\appl.o --omf_browse .\objects\appl.crf --depend .\objects\appl.d)
+I (main.h)(0x5B96090E)
+I (C:\Keil_v5\ARM\Inc\Philips\lpc213x.h)(0x55AF142E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5B323330)
+I (constants.h)(0x5B96335E)
+I (sys_status.h)(0x5B9776D2)
+I (io_conf.h)(0x5B97B2B4)
+I (sw_lib.h)(0x5B9112AE)
+I (keyboard.h)(0x5B95334A)
+I (lcd.h)(0x5B964FC2)
+I (uart.h)(0x5B96389A)
+I (appl_conf.h)(0x5B97B0E2)
+I (io_lib.h)(0x5B962CC6)
+I (port.h)(0x5B93ABC4)
+I (std_lib.h)(0x5B977080)
+I (dev_oper.h)(0x5B967F36)
+I (appl.h)(0x5BA9CD60)
+F (.\std_lib.c)(0x5C90DC78)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="521"-o .\objects\std_lib.o --omf_browse .\objects\std_lib.crf --depend .\objects\std_lib.d)
+I (main.h)(0x5B96090E)
+I (C:\Keil_v5\ARM\Inc\Philips\lpc213x.h)(0x55AF142E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5B323330)
+I (constants.h)(0x5B96335E)
+I (sys_status.h)(0x5B9776D2)
+I (io_conf.h)(0x5B97B2B4)
+I (sw_lib.h)(0x5B9112AE)
+I (keyboard.h)(0x5B95334A)
+I (lcd.h)(0x5B964FC2)
+I (uart.h)(0x5B96389A)
+I (appl_conf.h)(0x5B97B0E2)
+I (io_lib.h)(0x5B962CC6)
+I (port.h)(0x5B93ABC4)
+I (std_lib.h)(0x5B977080)
+I (dev_oper.h)(0x5B967F36)
+F (.\std_lib.h)(0x5B977080)()
+F (.\sys_status.h)(0x5B9776D2)()

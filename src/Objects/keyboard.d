@@ -1,0 +1,16 @@
+.\objects\keyboard.o: keyboard.c
+.\objects\keyboard.o: main.h
+.\objects\keyboard.o: C:\Keil_v5\ARM\Inc\Philips\lpc213x.h
+.\objects\keyboard.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\keyboard.o: constants.h
+.\objects\keyboard.o: sys_status.h
+.\objects\keyboard.o: io_conf.h
+.\objects\keyboard.o: sw_lib.h
+.\objects\keyboard.o: keyboard.h
+.\objects\keyboard.o: lcd.h
+.\objects\keyboard.o: uart.h
+.\objects\keyboard.o: appl_conf.h
+.\objects\keyboard.o: io_lib.h
+.\objects\keyboard.o: port.h
+.\objects\keyboard.o: std_lib.h
+.\objects\keyboard.o: dev_oper.h
