@@ -1,13 +1,12 @@
 Description :
 ============
-I, K.M. Arun Kumar alias Arunkumar Murugeswaran, just shared my works, which I worked as learning path and practiced Embedded C programming using LPC2138 (ARM7TDMI-S 32 bit RISC microcontroller by NXP (founded by Philips)) for interface of LED, 7 Segment LED, LED Dot Matrix, Switch, Keypad & LCD, UART, Timer, Interrupt. Other features are not implemented. 
+I, K.M. Arun Kumar alias Arunkumar Murugeswaran, just shared my works, which I worked as learning path and practiced Embedded C programming using LPC2138 (ARM7TDMI-S 32 bit RISC microcontroller) for Single user account authentication process. 
 
-Project using LPC2138, included with design, development, simulated and tested, using a simulator, are as follows :
-====================================================================================================================
-1: Scalable 5 floor single elevator controller by using LPC2138 microcontroller.
-2: Implementation of function operation of scanf, sscanf, printf, sprintf, gets, puts, putchar and getchar using Embedded C in LPC2138 microcontroller.
-3: Single user account authentication with authentication timeout.
- 
+Design
+=======
+A preset PIN and account number is set by default in code. Entered PIN in keypad is displayed in LCD. Use RESET_SW to reset Process, if any problem arises and start afresh. Use Enter SW to end input and entered data is at end. At first Welcome message to be displayed, when ACCOUNT_SW is pressed, account number is entered. If entered account number is correct, then ask for PIN and if entered PIN is correct, then display Next stage. If account number is incorrect and ask to reenter account
+number. After 3 failed iteration on entered account number, stop reenter of account number and display visit bank. If no key is pressed for longer duration or key has been pressed for long duration, display timeout and display visit bank. After 3 failed iteration on entered PIN number, stop reenter of PIN number and display visit bank. After displayed auth status, wait for predetermined time, and then display welcome message and wait for ACCOUNT_SW to be pressed to enter account number. RESET_SW is pressed to restart the process, if any problem arises.
+
 CAUTION:
 ========
 Schematics and simulation is done by Proteus CAD. NOT EXPERIMENTED IN REAL TIME ENVIRONMENT.
@@ -27,7 +26,7 @@ Toolchains that I used for LPC2138 Application design and development are as fol
 2: PC tool for Programming Flash of LPC2138                                 - Flash Magic.
 3: LCD                                                                      - JHD162A.
 4: Desktop Computer Architecture and OS for development                     - Intel X64 & Windows 7 (32 bit).
-5: CADD and Simulations                                                     - Proteus 8.0 Pro and/or Proteus 8.3 Pro SP2. 
+5: CAD and Simulations                                                      - Proteus 8.0 Pro and/or Proteus 8.3 Pro SP2. 
 6: Code editor                                                              - Notepad++.
 7: Documentation                                                            - Microsoft Office 2007 (alternative LibreOffice) and Text Editor. 
 
@@ -38,7 +37,7 @@ Some reference that I refered for LPC2138 Application design and development, ar
 3: Embedded C - Book authored by Michael J. Pont.
 4: Reusable Firmware Development: A Practical Approach to APIs, HALs and Drivers - Book authored by Jacob Beningo. 
 5: https://www.embedded.com/building-reusable-device-drivers-for-microcontrollers/ - Building reusable device drivers for microcontrollers.
-6: https://www.nxp.com/docs/en/data-sheet/LPC2131_32_34_36_38.pdf - LPC2131/32/34/36/38 - Single-chip 16/32-bit microcontrollers; 32/64/128/256/512 kB ISP/IAP flash with 10-bit ADC and DAC,Rev. 5.1 — 29 July 2011 Product data sheet. 
+6: https://www.nxp.com/docs/en/data-sheet/LPC2131_32_34_36_38.pdf - LPC2131/32/34/36/38 - Single-chip 16/32-bit microcontrollers; 32/64/128/256/512 kB ISP/IAP flash with 10-bit ADC and DAC,Rev. 5.1 â€” 29 July 2011 Product data sheet. 
 7: Hitachi HD44780U - LCD product data sheet.
 8: http://www.electronicwings.com/arm7  - ARM 7 Inside - LPC2148.
 
@@ -47,7 +46,7 @@ Note :
 ======
 Kindly read in the source codes, if mentioned, about the Program Description or Purpose, Known Bugs, Caution & Notes and Documentations. Some applications are also tested in a LPC2138 development board.
 
-Repository Web Link :
-=====================
-https://github.com/k-m-arun-kumar/LPC2138_Embedded-repo.git
+My Repositories Web Link :
+==========================
+https://github.com/k-m-arun-kumar-5
 
